@@ -43,7 +43,7 @@ struct Ticket: View {
             }
             .cornerRadius(40, corners: [.topLeft, .topRight])
             
-            Spacer()
+            Spacer(minLength: height)
             
             //MARK: Date, Time, Row and Seats
             VStack(spacing: 10.0) {
@@ -105,7 +105,7 @@ struct Ticket: View {
             )
 
         }
-        .frame(height: 460)
+        .frame(height: height)
         .font(.footnote)
         .shadow(radius: 10)
     }
