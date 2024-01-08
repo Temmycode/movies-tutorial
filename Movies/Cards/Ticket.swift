@@ -14,7 +14,7 @@ struct Ticket: View {
     @State var bottom = "thor-bottom"
     @Binding var height: CGFloat
     
-    var gradient = [Color("cyan"), Color("cyan").opacity(0), Color("cyan").opacity(0)]
+    var gradient = [Color("cyanColor"), Color("cyanColor").opacity(0), Color("cyanColor").opacity(0)]
     
     var body: some View {
         VStack(spacing: 0.0) {

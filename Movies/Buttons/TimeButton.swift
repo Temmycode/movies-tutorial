@@ -16,11 +16,11 @@ struct TimeButton: View {
     @Binding var isSelected: Bool
     @State var action: () -> Void = {}
     
-    var currentBorderColors: [Color] = [Color("cyan"), Color("cyan").opacity(0), Color("cyan").opacity(0)]
-    var currentGradient: [Color] = [Color("backgroundColor"), Color("grey")]
+    var currentBorderColors: [Color] = [Color("cyanColor"), Color("cyanColor").opacity(0), Color("cyanColor").opacity(0)]
+    var currentGradient: [Color] = [Color("backgroundColor"), Color("greyColor")]
     
-    var selectedBorderColors: [Color] = [Color("pink"), Color("pink").opacity(0), Color("pink").opacity(0)]
-    var selectedGradient: [Color] = [Color("majenta"), Color("backgroundColor")]
+    var selectedBorderColors: [Color] = [Color("pinkColor"), Color("pinkColor").opacity(0), Color("pinkColor").opacity(0)]
+    var selectedGradient: [Color] = [Color("majentaColor"), Color("backgroundColor")]
     
     var body: some View {
         Button {
